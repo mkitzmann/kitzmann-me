@@ -1,0 +1,7 @@
+kitzmann.me, www.kitzmann.me {
+	root * /home/mkitzmann/kitzmann-me
+	file_server
+	log {
+		output file /var/log/caddy/kitzmann-me-access.log
+	}
+}
